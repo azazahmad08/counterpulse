@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Buttons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section" id="section1">
+            <div class="circle" onclick="incrementCounter('count1')">
+                <span id="count1">0</span>
+            </div>
+            <p>Click Me</p>
+        </div>
+        <div class="section" id="section2">
+            <div class="circle" onclick="incrementCounter('count2')">
+                <span id="count2">0</span>
+            </div>
+            <p>Click Me</p>
+        </div>
+    </div>
+    <button class="reset" onclick="resetCounters()">Reset</button>
+    <script src="script.js"></script>
+</body>
+</html>
